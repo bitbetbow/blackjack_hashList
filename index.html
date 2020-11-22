@@ -26,7 +26,7 @@ function getQueryString(name) {
 $(function(){
 	let hashA = getQueryString('hashA');
 	let hashB = getQueryString('hashB');
-	$("#content").html("<h1>"+sha256_digest(hashB)+" = sha256("+hashB+")</h1>");
+	$("#content").html("<h1>SHA256("+hashB+")="+sha256_digest(hashB)+"</h1>");
 });
 
 
