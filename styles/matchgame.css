@@ -1,0 +1,13 @@
+body
+{
+    text-align: center;
+}
+
+h1 {
+    word-break: break-all;
+}
+
+#content
+{
+    width: 100%;
+}
